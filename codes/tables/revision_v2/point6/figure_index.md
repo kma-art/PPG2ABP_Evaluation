@@ -1,0 +1,10 @@
+| name | path | status | role | width_px | height_px | dpi_x | dpi_y | source |
+|---|---|---|---|---|---|---|---|---|
+| error_distributions | codes/figures/revision_v2/point5/error_distributions.png | ready_point5 | raw error distributions | 3166 | 2210 | 319.98919999999998 | 319.98919999999998 | point5 raw diagnostics |
+| prediction_reference_full | codes/figures/revision_v2/point5/prediction_reference_full.png | ready_point5 | prediction-reference full range | 3162 | 4718 | 319.98919999999998 | 319.98919999999998 | point5 raw diagnostics |
+| prediction_reference_zoom | codes/figures/revision_v2/point5/prediction_reference_zoom.png | ready_point5 | prediction-reference pressure-specific zoom | 3162 | 4718 | 319.98919999999998 | 319.98919999999998 | point5 raw diagnostics |
+| calibration | codes/figures/revision_v2/point5/calibration.png | ready_point5 | fixed-bin cluster-equal calibration | 3482 | 2523 | 319.98919999999998 | 319.98919999999998 | point5 raw diagnostics |
+| bland_altman_full | codes/figures/revision_v2/point5/bland_altman_full.png | ready_point5 | Bland-Altman full range | 3164 | 4718 | 319.98919999999998 | 319.98919999999998 | point5 raw diagnostics |
+| bland_altman_zoom | codes/figures/revision_v2/point5/bland_altman_zoom.png | ready_point5 | Bland-Altman difference zoom | 3161 | 4718 | 319.98919999999998 | 319.98919999999998 | point5 raw diagnostics |
+| legacy_figure_1 | codes/figures/figure_1.png | legacy_review_required | existing article figure | 1829 | 1219 | 299.99939999999998 | 299.99939999999998 | pre-point6 material |
+| legacy_figure_2 | codes/figures/figure_2.png | legacy_review_required | existing article figure | 2352 | 2652 | 299.99939999999998 | 299.99939999999998 | pre-point6 material |

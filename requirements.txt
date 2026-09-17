@@ -1,0 +1,19 @@
+# Environment used to produce the results reported in the article.
+# Python 3.12.11
+#
+# Inference, statistics and figures (all scripts except the ones noted below):
+torch==2.7.0            # runs reported on the CUDA 12.8 build; CPU works too
+numpy==2.2.6
+scipy==1.16.2
+matplotlib==3.10.6
+pillow==12.3.0          # read back figure size and DPI in the point5/point6 checks
+tqdm==4.67.1
+vitaldb==1.6.0          # VitalDB open API client (codes/_vital_download.ipynb)
+pandas==2.3.3           # diagnostic notebooks only
+
+# h5py is required by codes/_unified_evaluation.py and by the independence
+# audit in codes/leakage_audit/, which read the original data.hdf5 directly.
+# Those two entry points were run in a separate environment
+# (Python 3.12.12, h5py 3.16.0) because h5py was not installed alongside the
+# CUDA build above. Any h5py 3.x works.
+h5py>=3.10

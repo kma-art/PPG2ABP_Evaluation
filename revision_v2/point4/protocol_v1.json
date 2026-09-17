@@ -1,0 +1,58 @@
+{
+  "available_case_count": 3459,
+  "frozen_before_signal_acquisition": true,
+  "normalizations": {
+    "A": {
+      "confirmatory": true,
+      "label": "old_vitaldb_global_minmax",
+      "max": 96.87874678552862,
+      "min": -16.80837555484424
+    },
+    "B": {
+      "confirmatory": false,
+      "label": "mimic_meta9_direct",
+      "max_ppg": 4.001955034213099,
+      "min_ppg": 0.0
+    },
+    "C": {
+      "clip": [
+        -0.1,
+        1.1
+      ],
+      "confirmatory": false,
+      "label": "old_vitaldb_percentile_alignment",
+      "p1": 0.8139579029352338,
+      "p99": 66.95604975066223
+    }
+  },
+  "prediction_denormalization": {
+    "formula": "prediction_norm * 149.98749589709124 + 50",
+    "offset": 50.0,
+    "scale": 149.98749589709124
+  },
+  "protocol_version": "v1",
+  "schema_version": 2,
+  "selected_case_count": 100,
+  "selected_subject_count": 100,
+  "settings": {
+    "decimation": {
+      "factor": 4,
+      "ftype": "fir",
+      "zero_phase": true
+    },
+    "download_attempts": 3,
+    "holdout_case_count": 100,
+    "max_segments_per_case": 100,
+    "native_hz": 500,
+    "original_case_prefix_count": 100,
+    "segment_length": 1024,
+    "selection": "first eligible cases after prefix; unique new nonmissing subject",
+    "selection_seed": 20260908,
+    "step": 512,
+    "tracks": [
+      "SNUADC/PLETH",
+      "SNUADC/ART"
+    ],
+    "working_hz": 125
+  }
+}
